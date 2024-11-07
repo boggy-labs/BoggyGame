@@ -6,8 +6,6 @@ This robot is a telegram robot, which includes some command reply, check-in, and
 
 Telegram:@boggy_game_bot
 
-repositories:[BoggyGameBot](https://github.com/boggycom/BoggyGameBot)
-
 # Contact us
 ## Telegram
 https://t.me/BoggyCoin
