@@ -1,0 +1,35 @@
+{
+  "name": "typescr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "NODE_NO_WARNINGS=1 node --expose-gc -r ts-node/register src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^20.14.13",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "@types/qrcode": "^1.5.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@raydium-io/raydium-sdk-v2": "^0.1.70-alpha",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.2",
+    "@walletconnect/sign-client": "^2.14.0",
+    "axios": "^1.7.2",
+    "bs58": "^6.0.0",
+    "jimp": "^0.22.12",
+    "luxon": "^3.4.4",
+    "node-telegram-bot-api": "^0.66.0",
+    "qrcode": "^1.5.3",
+    "tweetnacl": "^1.0.3",
+    "yaml": "^2.6.0"
+  }
+}
