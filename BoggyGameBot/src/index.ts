@@ -12,7 +12,7 @@ const bot = new TelegramBot(config.bot.token, {
     },
   },
 });
-
+//fork boggygame
 process.on("uncaughtException", (error) => {
   console.error("Uncaught Exception:", error);
 });
