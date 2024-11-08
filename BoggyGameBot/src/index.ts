@@ -12,7 +12,6 @@ const bot = new TelegramBot(config.bot.token, {
     },
   },
 });
-
 process.on("uncaughtException", (error) => {
   console.error("Uncaught Exception:", error);
 });
